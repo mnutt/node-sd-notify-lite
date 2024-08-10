@@ -1,6 +1,6 @@
 {
   "name": "sd-notify-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "systemd socket notifier without systemd dependency",
   "main": "lib/index.js",
   "repository": "https://github/mnutt/node-sd-notify-lite",
