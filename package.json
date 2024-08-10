@@ -1,0 +1,42 @@
+{
+  "name": "sd-notify-lite",
+  "version": "1.0.0",
+  "description": "systemd socket notifier without systemd dependency",
+  "main": "lib/index.js",
+  "repository": "https://github/mnutt/node-sd-notify-lite",
+  "author": "Michael Nutt <michael@nuttnet.net>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "build": "tsc",
+    "prepack": "yarn build"
+  },
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.2.0",
+    "eslint": "^9.9.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1"
+  },
+  "dependencies": {
+    "unix-dgram": "^2.0.6"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "volta": {
+    "node": "20.16.0"
+  }
+}
