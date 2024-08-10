@@ -18,6 +18,9 @@
       "default": "./lib/index.js"
     }
   },
+  "bin": {
+    "watchdog-mock-server": "./bin/watchdog-mock-server"
+  },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@types/eslint__js": "^8.42.3",
