@@ -4,7 +4,7 @@ function notifySocket() {
   return process.env.NOTIFY_SOCKET;
 }
 
-function watchdogUsec() {
+export function watchdogUsec() {
   return process.env.WATCHDOG_USEC;
 }
 
@@ -22,7 +22,7 @@ function notifySystemd(state: string): void {
   }
 }
 
-function watchdogPing(): void {
+export function watchdogPing(): void {
   notifySystemd('WATCHDOG=1');
 }
 
