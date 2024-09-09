@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "systemd socket notifier without systemd dependency",
   "main": "lib/index.js",
-  "repository": "https://github/mnutt/node-sd-notify-lite",
+  "repository": "https://github.com/mnutt/node-sd-notify-lite",
   "author": "Michael Nutt <michael@nuttnet.net>",
   "license": "MIT",
   "scripts": {
